@@ -20,7 +20,7 @@ let str ='<table border="9">'
 for (let i=1;i<10;++i){
     str +='<tr>'
     for(var j=1;j<=i;++j){
-        str += '<td>' +j +'*' +i + '=' + (j*i) +'</td>'
+        str += '<td>'+ j+'*' +i + '=' + (j*i) +'</td>'
     }
     str +='</tr>'
 }
