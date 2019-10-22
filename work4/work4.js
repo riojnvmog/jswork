@@ -12,7 +12,6 @@ for (let i=1;i<=level;++i){
     let star =i*2-1
     for(let j=0;j<star;++j){
         document.write('*')
-
     }
     document.write("<br>")
 }
