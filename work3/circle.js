@@ -1,7 +1,7 @@
 var r = prompt('请输入圆的半径')
 人= parseFloat (r)&&Number(r)
 if (!isNaN(r)){
-    var cir =2 * Math.PI*r
+    var cir =2 * Math.PI*r//pi是弧度制要用math转数字类型
     var area =Math.PI*r*r
     document.getElementById('r').value = r
     document.getElementById('cir').value = cir.toFixed(2)

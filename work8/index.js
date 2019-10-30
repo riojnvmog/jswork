@@ -1,4 +1,4 @@
-function calc(func){
+function calc(func){//func是什么
     let result = document.getElementById('result')
     let num1 = parseInt(document.getElementById('num1').value)
     let num2 = parseInt(document.getElementById('num2').value) 
