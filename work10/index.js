@@ -15,7 +15,7 @@ function monkey(){
     while (monkey.length>1){
         i++;
         head = monkey.shift()
-        if(i%kick!=0){
+        if(i%kick!=0){               
             monkey.push(head);
         }
     }
