@@ -9,7 +9,7 @@ function monkey(){
     }
     let monkey =[]
     for (let i=1;i<=total;i++){
-        monkey.push(i)
+        monkey.push(i)//push
     }
     let i = 0
     while (monkey.length>1){

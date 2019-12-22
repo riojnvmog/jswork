@@ -79,5 +79,5 @@ function creatOption(obj,date){
         obj.options.add(op)
     }
 }
-var classes = document.getElementById('colleges');
+var classes = document.getElementById('classSelect');
 creatOption(calsses,colleges)

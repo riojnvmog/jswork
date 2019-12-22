@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="UTF-8">
+<title>07190733吴嘉杰的万年历</title>
+<link href="./index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="selyear">
+        <span class="preyear" id="preyear" data-year="" onclick="setCalendar(this.dataset.year)"></span>
+        <span id="curyear"></span>
+        <span class="nextyear" id="nextyear" data-year="" onclick="setCalendar(this.dataset.year)"></span>
+    </div>
+    <div class="box" id="cal"></div>
+</body>
+<script>
+    let year1 = new Date().getFullYear();
+    let pre1 = year1 - 1;
+    let next1 = year1 + 1;
+    document.getElementById('preyear').setAttribute('data-year', pre1);
+    document.getElementById('curyear').setAttribute('data-year', year1);
+    document.getElementById('nextyear').setAttribute('data-year', next1);
+    document.getElementById("preyear").innerText = "<<" + pre1;
+    document.getElementById("curyear").innerText = year1;
+    document.getElementById("nextyear").innerText = next1 + ">>";
+</script>
+<script src="./calendar.js"></script>
+<script src="./index1.js"></script>
+</html>

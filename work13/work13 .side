@@ -1,0 +1,373 @@
+{
+  "id": "e9222cb8-ecc9-4aef-8019-704fb4149035",
+  "version": "2.0",
+  "name": "work13",
+  "url": "http://127.0.0.1:8080",
+  "tests": [{
+    "id": "847759ac-bc34-48cb-aa8c-d60e11e70ead",
+    "name": "表单生成器",
+    "commands": [{
+      "id": "68c72949-e0ca-4190-8692-c83279dae285",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66e6dd48-d4c9-4762-8013-0ef80cecfefc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "600x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53d9c689-8db4-4868-9bd3-8498494cb485",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'work13')]",
+      "targets": [
+        ["linkText=work13 表单生成器", "linkText"],
+        ["css=a:nth-child(30)", "css:finder"],
+        ["xpath=//a[contains(text(),'work13 表单生成器')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'work13/index.html')]", "xpath:href"],
+        ["xpath=//a[15]", "xpath:position"],
+        ["xpath=//a[contains(.,'work13 表单生成器')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a68d7a9a-242d-40d9-9223-19e269408f12",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b66fbe79-e048-49d0-9e50-1905a9852b2a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=sid",
+      "targets": [
+        ["name=sid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='sid']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ad05698-5b4e-4294-a371-ee0ff3a1cc77",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=classid",
+      "targets": [
+        ["name=classid", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='classid']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d34d847-a848-4829-9b91-701354a208be",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//label[contains(.,'男')]",
+      "targets": [
+        ["css=tr:nth-child(4) label:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='form']/table/tbody/tr[4]/td/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'男')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e180bcd-1174-4c83-94b1-ae20e84b31a1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//label[contains(.,'游泳')]",
+      "targets": [
+        ["css=tr:nth-child(5) label:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='form']/table/tbody/tr[5]/td/label", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/label", "xpath:position"],
+        ["xpath=//label[contains(.,'游泳')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d27e6f99-03c2-4c90-a612-1a6ec2d45b76",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=area",
+      "targets": [
+        ["name=area", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='area']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[6]/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "751d406b-f9ab-421c-a1a0-3aece72b2a75",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=introduce",
+      "targets": [
+        ["name=introduce", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='introduce']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[7]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efc72a97-c40a-4cf4-a985-e1beeda3e307",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//input[@value='提交']",
+      "targets": [
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@value='提交']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[8]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02e0085f-48c9-4d84-a78e-ccd1d76feb15",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "680bd5ba-6e3f-4c51-840b-f022c84140ab",
+    "name": "表单生成器服务器版",
+    "commands": [{
+      "id": "e1d8f1bc-0920-4945-a375-eace21ef50df",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c29e8593-2879-4348-af78-9818a4071e2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "600x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ad60f80-8fec-4dac-91c3-7814dac6f138",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'work13')]",
+      "targets": [
+        ["linkText=work13 表单生成器", "linkText"],
+        ["css=a:nth-child(30)", "css:finder"],
+        ["xpath=//a[contains(text(),'work13 表单生成器')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'work13/index.html')]", "xpath:href"],
+        ["xpath=//a[15]", "xpath:position"],
+        ["xpath=//a[contains(.,'work13 表单生成器')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96b2f887-07b3-4e8e-a1cc-4bba24914205",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f192d7b-0df5-4f7d-a34a-99139eb7ba4b",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=tr:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "崔宇"
+    }, {
+      "id": "2db4de4d-750a-48c7-9afb-a39894ebdf5c",
+      "comment": "",
+      "command": "click",
+      "target": "name=sid",
+      "targets": [
+        ["name=sid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='sid']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01b48d91-29b9-4d9c-8497-ae59255bdf39",
+      "comment": "",
+      "command": "type",
+      "target": "name=sid",
+      "targets": [
+        ["name=sid", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='sid']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "07190999"
+    }, {
+      "id": "c43c389b-e026-43d5-88f5-e614df8efb78",
+      "comment": "",
+      "command": "type",
+      "target": "name=classid",
+      "targets": [
+        ["name=classid", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='classid']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td/input", "xpath:position"]
+      ],
+      "value": "1909"
+    }, {
+      "id": "d21d80c4-d6de-4c75-9084-4497a66e5cc8",
+      "comment": "",
+      "command": "click",
+      "target": "name=gender",
+      "targets": [
+        ["name=gender", "name"],
+        ["css=tr:nth-child(4) label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='gender']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[4]/td/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6241967a-96fb-4356-b662-09b7d779dfa9",
+      "comment": "",
+      "command": "click",
+      "target": "name=hobby[]",
+      "targets": [
+        ["name=hobby[]", "name"],
+        ["css=tr:nth-child(5) label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='hobby[]']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[5]/td/label/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d2bc9bc-cf09-4378-a6a0-cd9c405c7e61",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) label:nth-child(2) > input",
+      "targets": [
+        ["css=tr:nth-child(5) label:nth-child(2) > input", "css:finder"],
+        ["xpath=(//input[@name='hobby[]'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[5]/td/label[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td/label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f340c5c-df02-4da3-9e5b-5fe2d9923484",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(3) > input",
+      "targets": [
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=(//input[@name='hobby[]'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[5]/td/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e6fb037-3d8e-4647-ba42-654ca9608e3e",
+      "comment": "",
+      "command": "click",
+      "target": "name=area",
+      "targets": [
+        ["name=area", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name='area']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[6]/td/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bb20b79-31f9-481b-b481-5bba41a51010",
+      "comment": "",
+      "command": "select",
+      "target": "name=area",
+      "targets": [],
+      "value": "label=北京"
+    }, {
+      "id": "ae29d976-a1d5-4cfa-883f-d03c1c4462c6",
+      "comment": "",
+      "command": "click",
+      "target": "name=introduce",
+      "targets": [
+        ["name=introduce", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='introduce']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[7]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2076d50-0921-461b-b39e-542f12fd76e7",
+      "comment": "",
+      "command": "type",
+      "target": "name=introduce",
+      "targets": [
+        ["name=introduce", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='introduce']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[7]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "帅，就一个字"
+    }, {
+      "id": "c95a7612-d6e4-4693-92a4-02531bd9177c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@value='提交']",
+      "targets": [
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@value='提交']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/table/tbody/tr[8]/td/input", "xpath:idRelative"],
+        ["xpath=//tr[8]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f27ff8b-2d93-4a8e-9811-1693348af09b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=pre",
+      "targets": [
+        ["css=pre", "css:finder"],
+        ["xpath=//pre", "xpath:position"],
+        ["xpath=//pre[contains(.,'{\"user\":\"崔宇\",\"sid\":\"07190999\",\"classid\":\"1909\",\"gender\":\"m\",\"hobby[]\":[\"swimming\",\"reading\",\"running\"],\"area\":\"bj\",\"introduce\":\"帅，就一个字\"}')]", "xpath:innerText"]
+      ],
+      "value": "{\"user\":\"崔宇\",\"sid\":\"07190999\",\"classid\":\"1909\",\"gender\":\"m\",\"hobby[]\":[\"swimming\",\"reading\",\"running\"],\"area\":\"bj\",\"introduce\":\"帅，就一个字\"}"
+    }]
+  }],
+  "suites": [{
+    "id": "727f1c6f-4dc8-4b88-a204-7c66252901fa",
+    "name": "testwork13",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["847759ac-bc34-48cb-aa8c-d60e11e70ead", "680bd5ba-6e3f-4c51-840b-f022c84140ab"]
+  }],
+  "urls": ["http://127.0.0.1:8080/"],
+  "plugins": []
+}

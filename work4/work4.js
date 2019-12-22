@@ -17,11 +17,11 @@ for (let i=1;i<=level;i++){
 }
 let str ='<table border="9">'
 for (let i=1;i<10;++i){
-    str +='<tr>'//删除无影响
-    for(var j=1;j<=i;++j){//？？？
+    str +='<tr>'
+    for(var j=1;j<=i;++j){
         str += '<td>'+ j+'*' +i + '=' + (j*i) +'</td>'//td是格子
-    }//为什么会换行
-    str +='</tr>'//这个有什么用
+    }
+    str +='</tr>'
 }
 str +='</table>'
-document.getElementById('table').innerHTML =str
+document.getElementById('table').innerHTML =str//innerhtml表示把str里面包含的东西放进table的<div>str</div>中间
