@@ -1,11 +1,11 @@
-.box{
+.box {
     width: 350px;
-    height: 350;
+    height: 350px;
     border: 1px solid #ccc;
     position: relative;
 }
 
-.big{
+.big {
     width: 400px;
     height: 400px;
     position: absolute;
@@ -16,14 +16,26 @@
     display: none;
 }
 
-.small{
+.mask {
+    width: 175px;
+    height: 175px;
+    background: rgba(255, 255,0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor:move;
+    display: none
+
+}
+
+.small {
     position: relative;
 }
 
-.box img{
+.box img {
     vertical-align: top;
 }
 
 #bigBox img {
-    position: absolute;
+    position: absolute
 }
